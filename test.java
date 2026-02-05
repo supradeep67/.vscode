@@ -21,7 +21,7 @@ public class test {
     for ( int i = 0 ; i < japanese.length; i++){
 
         System.out.println("please input your student name  for the index  "+ i +" : ");
-        japanese[i]= mc.next();
+        japanese[i]= mc.nextLine();
         mc.nextLine();
         System.out.print(" please input the  student grade  index id of  : " +i+" : " );
         english[i]= mc.nextLine();
